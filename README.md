@@ -12,7 +12,7 @@ The application follows a microservices architecture, dividing the functionality
 - The User service is responsible for handling user-related operations. It includes:
   Model Definition: Utilizes Django's User model extension to store user information, including first name and last name.
 
-- The Note microservice focuses on managing user notes. It includes:
+-  The Note microservice focuses on managing user notes. It includes:
   Model Definition: Defines a Note model to store note details, such as title and content.
 
 
