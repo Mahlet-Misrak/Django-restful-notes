@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    working_dir: /app
+    environment:
+      - DJANGO_SETTINGS_MODULE=NoteApplication.settings
+
+# No need for a separate database service for SQLite
+# The SQLite database file will be stored within the web container
